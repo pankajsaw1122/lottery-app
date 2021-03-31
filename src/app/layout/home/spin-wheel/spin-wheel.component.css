@@ -1,0 +1,82 @@
+
+
+.td-text {
+    padding: 0px 32px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 66px;
+    height: 80px;
+    text-shadow: 3px 3px #f8f9fa;
+}
+
+.prize-head {
+    background: linear-gradient(to right, #e96443, #904e95);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sec-head {
+    padding: 8px;
+}
+
+.prize-num {
+    margin-top: 32px;
+    text-align: center;
+    color: #ffff;
+    font-size: 32px;
+}
+.num-box {
+    padding: 8px;
+    margin: 2px;
+    border: 2px solid #353535;
+    background: #ffff;
+    color: #232323c9;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+.won-message {
+    text-align: center;
+    margin-top: 72px;
+    font-size: 62px;
+    color: #ffe460;
+    font-weight: 900;
+}
+
+.wheel-outer {
+    /* border-right: 2px solid #ffff;
+    background-color: black; */
+}
+
+.wheel-sect-show {
+    display: block;
+    border-bottom: 2px solid #ffff;
+    border-right: 2px solid #ffff;
+}
+
+.wheel-sect-hide {
+    display: none;
+}
+
+
+.num-wheel-img {
+    border-bottom: 2px solid #ffff;
+    border-right: 2px solid #ffff;
+}
+
+.alpha-wheel-img {
+    /* border-bottom: 2px solid #ffff; */
+    border-right: 2px solid #ffff;
+}
+.counter-sect {
+    min-width: 480px;
+    vertical-align: baseline;
+}
+
+.tbl-bg {
+    background-color: #1b1c1d
+}

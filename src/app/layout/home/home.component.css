@@ -1,0 +1,31 @@
+.back-img {
+    background-image: url("/assets/lottery-bg.jpeg");
+    background-color: #cccccc;
+    background-size: cover;
+    height: 100%;
+}
+
+.head-sect {
+    margin: auto;
+    max-width: 540px;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.head-font {
+    padding: 16px;
+    font-size: 33px;
+    color: #dc3545;
+}
+
+.show-cmp {
+    display: block;
+}
+
+.hide-cmp {
+    display: none;
+}

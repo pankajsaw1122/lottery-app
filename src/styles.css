@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mat-dialog-container {
+    margin-top: 48px;
+    background-color:#000000fc;
+    color: white;
+    text-align: center;
+}
+
+/* .odometer.odometer-theme-car .odometer-digit {
+    padding: 0 0.35em !important;
+}
+
+.odometer.odometer-theme-car {
+    padding: 0.45em !important;
+    background: #ffffff !important;
+} */
