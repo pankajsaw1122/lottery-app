@@ -19,3 +19,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     padding: 0.45em !important;
     background: #ffffff !important;
 } */
+
+
+.odometer.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+    -webkit-transition-duration: 6s !important;
+    -moz-transition-duration: 6s !important;
+    -ms-transition-duration: 6s !important;
+    -o-transition-duration: 6s !important;
+    transition-duration: 6s !important
+}

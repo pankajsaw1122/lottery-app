@@ -11,6 +11,7 @@ import { ApiService } from '../../../shared/services/api.service';
 export class SpinWheelComponent implements OnInit {
   @ViewChild(NgxWheelComponent, { static: false }) mywheel: any;
   // subscription: Subscription;
+  showCounter = false;
   count = 0;
   numImage = {
     show: false,
@@ -23,7 +24,7 @@ export class SpinWheelComponent implements OnInit {
   };
 
   isOpen = false;
-  duration = 7;
+  duration = 20;
   show = false;
   idToLandOn = 0;
   items: any;
@@ -63,6 +64,7 @@ export class SpinWheelComponent implements OnInit {
 
     this.apiService.onDialogBox$.subscribe((data: any) => {
       console.log('Inside event subscribe');
+      this.showCounter = true; 
       // console.log(data);
       this.mywheel.spin();
     });
@@ -128,11 +130,6 @@ export class SpinWheelComponent implements OnInit {
       { id: 20, 'fillStyle': '#e7706f', text: '29' },
       { id: 21, 'fillStyle': '#eae56f', text: '30' }
     ];
-
-    // setTimeout(() => {
-    //   console.log('SPin wheel 1111');
-    //   this.mywheel.spin();
-    // }, 5000);
 
   }
 

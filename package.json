@@ -30,7 +30,6 @@
     "ng9-odometer": "^2.1.0",
     "ngx-countdown": "^11.0.3",
     "ngx-wheel": "^4.0.5",
-    "randomstring": "^1.1.5",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"

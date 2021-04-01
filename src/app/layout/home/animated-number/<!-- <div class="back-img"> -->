@@ -1,0 +1,115 @@
+<!-- <div class="back-img"> -->
+
+<!-- <div class="container-fluid"> -->
+<!-- <div class="row">
+        <div class="col-12">
+            <div class="head-sect">
+                <p class="head-font">Kolkata Lottery</p>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="row">
+        <!-- <div class="col-2">
+            <table>
+                <tr>
+                    <td class="td-text">P</td>
+                </tr>
+                <tr>
+                    <td class="td-text">X</td>
+                </tr>
+                <tr>
+                    <td class="td-text">W</td>
+                </tr>
+                <tr>
+                    <td class="td-text">E</td>
+                </tr>
+                <tr>
+                    <td class="td-text">L</td>
+                </tr>
+                <tr>
+                    <td class="td-text">L</td>
+                </tr>
+            </table>
+        </div> -->
+    
+        <table>
+            <tr>
+                <td>
+                    <div class="wheel-outer">
+                        <div *ngIf="numImage.show" class="num-wheel-img">
+                            <img [src]="numImage.url" width='220' height='220' alt="not found">
+                        </div>
+    
+                        <div [ngClass]="(!hideWheel)?'wheel-sect-show':'wheel-sect-hide'">
+                            <ngx-wheel #myWheel [width]='220' [height]='220' [spinDuration]='duration'
+                                [disableSpinOnClick]='true' [items]='items' [innerRadius]='30' [spinAmount]='10'
+                                pointerStrokeColor='red' pointerFillColor='purple' [idToLandOn]='idToLandOn'
+                                (onSpinStart)='before()' (onSpinComplete)='after()'>
+                            </ngx-wheel>
+                        </div>
+    
+                        <div class="wheel-outer">
+                            <div *ngIf="alphImg.show" class="alpha-wheel-img">
+                                <img [src]="alphImg.url" width='220' height='220' alt="not found">
+                            </div>
+                        </div>
+                    </div>
+    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- <div class="col-md-4"> -->
+                    <div class="prize-head">
+                        <p class="sec-head">Ist Prize</p>
+                    </div>
+    
+                    <div class="prize-num">
+                        <app-animated-number></app-animated-number>
+                    </div>
+                    <div *ngIf="showWonMssage" class="won-message">
+                        Hurray! You Won
+                    </div>
+                    <!-- </div> -->
+                </td>
+            </tr>
+        </table>
+    
+        <!-- <div class="col-md-4"> -->
+    
+        <!-- </div> -->
+    
+    
+    
+        <div class="col-2">
+            <div class="col-2">
+                <!-- <div class="straight-line">
+                        <p>Kolkata</p>
+                    </div> -->
+                <table>
+                    <tr>
+                        <td class="td-text">P</td>
+                    </tr>
+                    <tr>
+                        <td class="td-text">X</td>
+                    </tr>
+                    <tr>
+                        <td class="td-text">W</td>
+                    </tr>
+                    <tr>
+                        <td class="td-text">E</td>
+                    </tr>
+                    <tr>
+                        <td class="td-text">L</td>
+                    </tr>
+                    <tr>
+                        <td class="td-text">L</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+    </div>
+    <!-- </div> -->
+    <!-- </div> -->

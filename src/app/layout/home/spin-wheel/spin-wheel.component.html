@@ -18,6 +18,9 @@
 
                         <div class="wheel-outer">
                             <div *ngIf="alphImg.show" class="alpha-wheel-img">
+                                <!-- <video width="220" height="220" autoplay>
+                                    <source src="/assets/wheel-vid.mp4" type="video/mp4">
+                                </video> -->
                                 <img [src]="alphImg.url" width='220' height='220' alt="not found">
                             </div>
                         </div>
@@ -25,7 +28,7 @@
 
                 </td>
                 <td class="counter-sect">
-                    <div class="prize-num">
+                    <div class="prize-num" *ngIf="showCounter">
                         <app-animated-number></app-animated-number>
                     </div>
                 </td>
